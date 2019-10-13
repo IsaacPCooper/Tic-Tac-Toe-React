@@ -7,3 +7,14 @@ it('renders without crashing', () => {
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
+
+/*
+Failed Jasmine Test Implimentation
+ ?
+describe('Game Is In Progress', () => {
+  it('should show when a game is ongoing', () => {
+      const ONGOING_GAME;
+      expect(result).toBe(-1);
+  })
+})
+*/
