@@ -160,8 +160,10 @@ class App extends React.Component<{}, IState> {
               Tic Tac Toe Application using React TypeScript
             </h1>
           </header>
-          {this.renderBoard()}
-          {this.renderStatus()}
+          <body>
+            {this.renderBoard()}
+            {this.renderStatus()}
+          </body>
           <footer className="App-footer"></footer>
         </div>
       </div>
