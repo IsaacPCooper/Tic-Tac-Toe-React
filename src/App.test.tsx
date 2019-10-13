@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import ONGOING_GAME from "./App";
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
@@ -9,12 +10,12 @@ it('renders without crashing', () => {
 });
 
 /*
-Failed Jasmine Test Implimentation
- ?
+Failed Jasmine Test Implimentation ???
+*/
 describe('Game Is In Progress', () => {
   it('should show when a game is ongoing', () => {
-      const ONGOING_GAME;
-      expect(result).toBe(-1);
+      const ongoingcheck =  ONGOING_GAME;
+      expect(ongoingcheck).toBe(-1);
   })
 })
-*/
+
