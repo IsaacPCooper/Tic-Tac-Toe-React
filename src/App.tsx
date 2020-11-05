@@ -82,6 +82,13 @@ class App extends React.Component<{}, IState> {
     ) {
       return board[0];
     }
+    else if (
+      board[2] === board[4] &&
+      board[4] === board[6] &&
+      board[6] !== Player.None
+    ) {
+      return board[2];
+    }
 
     //Draw Check
     for (const player of board) {
