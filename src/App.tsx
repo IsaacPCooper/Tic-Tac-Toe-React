@@ -89,6 +89,7 @@ class App extends React.Component<{}, IState> {
     ) {
       return board[2];
     }
+  }
 
     //Draw Check
     for (const player of board) {
